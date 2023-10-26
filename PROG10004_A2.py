@@ -74,6 +74,8 @@ def run():
             product_name = str(input("Please enter the Product Name: "))
             print("You have entered {} as the Product name".format(product_name))
             break
+        
+        #Used for Sanity check even though a number can be included as part of a string kept due for good coding practices
         except ValueError:
             print("Invalid Input for Product Name! Please enter a string character!")
             continue
