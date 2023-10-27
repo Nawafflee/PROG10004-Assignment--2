@@ -38,8 +38,8 @@ class Product:
     """
     
     @classmethod
-    def current_stock_quantity(cls,monthly_production,sale_of_product):
-        cls._stock_quantity =  cls._stock_quantity + monthly_production - sale_of_product
+    def current_stock_quantity(cls,estimated_monthly_production,sale_of_product):
+        cls._stock_quantity =  cls._stock_quantity + estimated_monthly_production - sale_of_product
         return cls._stock_quantity
     
 
